@@ -1,0 +1,139 @@
+
+.cabecalho .navegacao{
+    width: 580px;
+    height: 110px;
+    z-index: 3;
+}
+
+
+.cabecalho .navegacao .lista-opcoes{
+    width: 100%;
+    height: 100%;
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.cabecalho .menu{
+    display: none;
+    width: 60px;
+    height: 60px;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+
+.cabecalho .navegacao label{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cabecalho .hamburguer{
+    background: #fff;
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 2px;
+    top: 65px;
+    transition: .5s ease-in-out;
+}
+
+
+.cabecalho .hamburguer::before, .cabecalho .hamburguer::after{
+    content: '';
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: .2s ease-in-out;
+}
+
+
+.cabecalho .hamburguer::before{
+    top: -10px;
+}
+
+
+.cabecalho .hamburguer::after{
+    bottom: -10px;
+}
+
+
+.cabecalho input{
+    display: none;
+}
+
+
+.cabecalho input:checked ~ label .hamburguer{
+    transform: rotate(45deg);
+}
+
+
+.cabecalho input:checked ~ label .hamburguer::before{
+    transform: rotate(90deg);
+    top: 0;
+}
+
+
+.cabecalho input:checked ~ label .hamburguer::after{
+    transform: rotate(90deg);
+    bottom: 0;
+}
+
+
+.cabecalho .navegacao .lista-opcoes .opcao{
+    width: 160px;
+    height: 50px;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: .3s ease-in-out;
+}
+
+
+.cabecalho .navegacao .lista-opcoes .opcao.btn-home{
+    background-image: url(../images/inicio.png);
+}
+
+
+.cabecalho .navegacao .lista-opcoes .opcao.btn-sobre{
+    background-image: url(../images/sobre.png);
+}
+
+
+.cabecalho .navegacao .lista-opcoes .opcao.btn-contato{
+    background-image: url(../images/contato.png);
+}
+
+
+@media (max-width: 940px){
+
+    .cabecalho .menu{
+        display: block;
+    }
+
+
+    .cabecalho .navegacao .lista-opcoes{
+        display: none;
+    }
+
+
+    .cabecalho input:checked ~ .lista-opcoes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+
+    .cabecalho .navegacao{
+        width: 200px;
+        height: 280px;
+        position: absolute;
+        top: 8px;
+        right: 20px;
+    }
+}

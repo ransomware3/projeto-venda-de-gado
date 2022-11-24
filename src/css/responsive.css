@@ -1,0 +1,174 @@
+@media(max-width: 940px){
+
+    .banner .container-titulo{
+        height: 480px;
+    }
+
+    .banner .container-titulo .titulo{
+        font-size: 60px;
+    }
+
+    .banner .container-titulo .subtitulo{
+        font-size: 30px;
+    }
+
+    .produtos .titulo{
+        font-size: 45px;
+    }
+
+    .produtos .link-nelore .subtitulo, .produtos .link-angus .subtitulo{
+        font-size: 35px;
+    }
+
+    .produtos .link-nelore .nelore, .produtos .link-angus .angus{
+        width: 228px;
+        height: 217px;
+        margin-bottom: 13px;
+        background-repeat: no-repeat;
+    }
+
+    .sobre .texto-sobre{
+        max-width: 55%;
+        font-size: 25px;
+    }
+     
+    .sobre .texto-sobre span{
+        font-size: 25px;
+    }
+
+    .rodape .container-rodape{
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .rodape .container-rodape .contato-tel .titulo{
+        font-size: 35px;
+    }
+
+    .rodape .container-rodape .contato-logo{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .rodape .container-rodape .contato-logo .rodape-logo{
+        display: none;
+    }
+
+    .rodape .container-rodape .contato-tel, .contato-tel .tel-container{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato-tel .tel-container, .rodape .container-rodape .contato-tel .link-whats-container .link-whats{
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 760px){
+
+    .banner .cabecalho .logo{
+        margin-top: 30px;
+        width: 150px;
+        height: 110px;
+    }
+
+    .produtos .link-nelore .nelore, .produtos .link-angus .angus{
+        width: 208px;
+        height: 197px;
+        margin-bottom: 13px;
+        background-repeat: no-repeat;
+    }
+
+    .produtos .link-nelore .subtitulo, .produtos .link-angus .subtitulo{
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 600px){
+
+    .banner .cabecalho .logo{
+        width: 130px;
+        height: 90px;
+    }
+
+    .banner .container-titulo .titulo{
+        font-size: 40px;
+    }
+
+    .banner .container-titulo .subtitulo{
+        font-size: 20px;
+    }
+
+    .produtos{
+        height: 600px;
+        background-size: cover;
+        gap: 30px;
+    }
+
+    .produtos .titulo{
+        font-size: 35px;
+        margin: 50px 0 50px 0;
+    }
+
+    .produtos .container-produtos{
+        width: 100%;
+        height: 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .produtos .link-nelore .nelore, .produtos .link-angus .angus{
+        width: 168px;
+        height: 157px;
+        margin-bottom: 13px;
+        background-repeat: no-repeat;
+    }
+
+    .produtos .link-nelore .subtitulo, .produtos .link-angus .subtitulo{
+        font-size: 30px;
+    }
+
+    .sobre{
+        height: 660px;
+    }
+
+    .sobre .texto-sobre{
+        max-width: 60%;
+        font-size: 22px;
+    }
+    
+    .sobre .texto-sobre span{
+        font-size: 22px;
+    }
+
+    .rodape .container-rodape{
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .rodape .container-rodape .contato-tel .titulo{
+        font-size: 35px;
+    }
+
+}
+
+@media(max-width: 480px){
+
+    .sobre .texto-sobre{
+        font-size: 20px;
+    }
+    
+    .sobre .texto-sobre span{
+        font-size: 20px;
+    }
+
+    .rodape .container-rodape .contato-tel .titulo{
+        font-size: 30px;
+    }
+}
