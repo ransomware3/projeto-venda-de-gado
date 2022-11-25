@@ -5,51 +5,35 @@
     }
 
     .banner .container-titulo .titulo{
-        font-size: 45px;
-        margin-bottom: 20px;
+        font-size: 60px;
+        margin-top: 50px;
     }
 
     .banner .container-titulo .subtitulo{
         font-size: 25px;
     }
 
-    .produtos{
-        height: 100vh;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
     .produtos .titulo{
         font-size: 45px;
-        margin-top: 20px;
     }
 
     .produtos .link-nelore .nelore, .produtos .link-angus .angus{
-        width: 178px;
-        height: 167px;
+        width: 228px;
+        height: 217px;
         background-repeat: no-repeat;
-    }
-
-    .produtos .link-nelore .subtitulo, .produtos .link-angus .subtitulo{
-        font-size: 30px;
     }
 
     .produtos .link-nelore .subtitulo, .produtos .link-angus .subtitulo{
         font-size: 35px;
-        margin-bottom: 30px;
-    }
-
-    .sobre{
-        height: 100vh;
     }
 
     .sobre .texto-sobre{
-        max-width: 80%;
-        font-size: 25px;
+        max-width: 50%;
+        font-size: 30px;
     }
      
     .sobre .texto-sobre span{
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .rodape .container-rodape{
@@ -89,6 +73,47 @@
     }
 }
 
+@media(max-width: 830px){
+
+    .banner .container-titulo .titulo{
+        font-size: 45px;
+        margin-top: 50px;
+    }
+
+    .produtos{
+        height: 65vh;
+        background-repeat: no-repeat;
+    }
+
+    .produtos .titulo{
+        font-size: 45px;
+    }
+
+    .produtos .link-nelore .nelore, .produtos .link-angus .angus{
+        width: 178px;
+        height: 167px;
+        background-repeat: no-repeat;
+    }
+
+    .produtos .link-nelore .subtitulo, .produtos .link-angus .subtitulo{
+        font-size: 30px;
+    }
+
+    .produtos .link-nelore .subtitulo, .produtos .link-angus .subtitulo{
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+
+    .sobre .texto-sobre{
+        max-width: 60%;
+        font-size: 26px;
+    }
+
+    .sobre .texto-sobre span{
+        font-size: 26px;
+    }
+}
+
 @media(max-width: 750px){
 
     .banner .cabecalho .logo{
@@ -106,14 +131,13 @@
     }
 
     .produtos{
-        height: 600px;
         background-size: cover;
-        gap: 30px;
+        gap: 50px;
+        height: 620px;
     }
 
     .produtos .titulo{
         font-size: 35px;
-        margin: 50px 0 50px 0;
     }
 
     .produtos .container-produtos{
@@ -121,7 +145,7 @@
         height: 320px;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: none;
         align-items: center;
         gap: 20px;
     }
@@ -158,7 +182,6 @@
     .rodape .container-rodape .contato-tel .titulo{
         font-size: 35px;
     }
-
 }
 
 @media(max-width: 600px){
@@ -210,5 +233,20 @@
 
     .rodape .container-rodape .contato-tel .link-whats-container .link-whats{
         font-size: 23px;
+    }
+}
+
+@media(max-width: 360px){
+
+    .rodape .container-rodape .contato-tel .titulo{
+        font-size: 25px;
+    }
+
+    .contato-tel .tel-container{
+        font-size: 20px;
+    }
+
+    .rodape .container-rodape .contato-tel .link-whats-container .link-whats{
+        font-size: 20px;
     }
 }

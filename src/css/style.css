@@ -47,7 +47,7 @@
 
 .banner .container-titulo{
     width: 100%;
-    height: 530px;
+    height: 500px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -61,7 +61,7 @@
     text-align: center;
     font-family: 'Allerta Stencil', sans-serif;
     color: #fff;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
     text-transform: uppercase;
 }
 
@@ -155,6 +155,7 @@
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -175,7 +176,7 @@
     color: #ccc;
     z-index: 3;
     font-size: 30px;
-    margin: 65px 0 0px 40px;
+    margin-left: 40px;
     font-family: 'Aladin', cursive;
     line-height: 40px;
 }
