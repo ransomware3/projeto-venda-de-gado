@@ -81,12 +81,13 @@
     }
 
     .produtos{
-        height: 65vh;
+        height: 90vh;
         background-repeat: no-repeat;
     }
 
     .produtos .titulo{
         font-size: 45px;
+        margin: 20px 0;
     }
 
     .produtos .link-nelore .nelore, .produtos .link-angus .angus{
