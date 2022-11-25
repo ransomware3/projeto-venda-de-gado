@@ -189,6 +189,7 @@
 
     .banner{
         height: 75vh;
+        background-position: -5px;
     }
 
     .banner .container-titulo{
@@ -198,6 +199,10 @@
     .produtos .titulo{
         font-size: 30px;
         margin: 50px 0 70px 0;
+    }
+
+    .sobre{
+        background-position: left;
     }
 
     .sobre .texto-sobre{
